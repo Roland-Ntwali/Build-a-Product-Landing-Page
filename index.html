@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product landing page</title>
-</head>
-<body>
-  <main>
-   <link rel="stylesheet" href="styles.css">
-<div id="page-wrapper"></div>
-  <header id="header">
-    <div class="logo">
-      <img
-        id="header-img"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-        alt="original trombones logo"
-      />
-    </div>
-          
-      <nav id="nav-bar">
-        <ul>
-              <li><a class="nav-link" href="#Features">Features</a></li>
-              <li><a class="nav-link" href="#How-It-Works">How It Works</a></li>
-              <li><a class="nav-link" href="#Pricing">Pricing</a></li>
-            </ul>
+  </head>
+  <body>
+    <main>
+      <link rel="stylesheet" href="styles.css" />
+      <div id="page-wrapper"></div>
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt="original trombones logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#Features">Features</a></li>
+            <li><a class="nav-link" href="#How-It-Works">How It Works</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+          </ul>
         </nav>
-      
-      
+      </header>
+      <section id="Hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="button" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
